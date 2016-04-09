@@ -30,6 +30,7 @@ sudo pip3.5 install --upgrade -r requirements.txt
 
 # Set the default configuration files for vagrant
 cp src/conf/conf.cfg-sample src/conf/conf.cfg
+sed -i 's/host = 127.0.0.1/host = 0.0.0.0/g' src/conf/conf.cfg
 sed -i '/database/d' src/conf/conf.cfg
 sed -i '/database_url/d' src/conf/conf.cfg
 echo '[database]' >> src/conf/conf.cfg
