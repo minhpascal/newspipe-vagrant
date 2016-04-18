@@ -6,7 +6,7 @@ JARR
 Presentation
 ============
 
-`JARR (Just Another RSS Reader) <https://github.com/JARR-aggregator/JARR>`_
+`JARR (Just Another RSS Reader) <https://github.com/JARR/JARR>`_
 is a web-based news aggregator and reader.
 
 
@@ -38,7 +38,7 @@ go to the address http://127.0.0.1:5000.
 License
 =======
 
-`JARR <https://github.com/JARR-aggregator/JARR>`_ is under the
+`JARR <https://github.com/JARR/JARR>`_ is under the
 `GNU Affero General Public License version 3 <https://www.gnu.org/licenses/agpl-3.0.html>`_.
 
 

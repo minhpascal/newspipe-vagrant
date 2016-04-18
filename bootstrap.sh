@@ -5,7 +5,7 @@ apt-get upgrade
 apt-get install -y python3 python3.5-dev libpq-dev python3-pip build-essential git
 
 # Clone the source code of JARR
-git clone https://github.com/JARR-aggregator/JARR.git
+git clone https://github.com/JARR/JARR.git
 if [ $? -ne 0 ]; then
     echo "\nERROR: unable to clone the git repository\n"
     exit 1;
