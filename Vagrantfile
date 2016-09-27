@@ -10,9 +10,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "Just Another RSS Reader"
-  config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/wily/current/wily-server-cloudimg-amd64-vagrant-disk1.box"
-  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.box = "ubuntu/xenial64"
+  config.vm.provision :shell, privileged: false, path: "bootstrap.sh"
+  config.vm.hostname = "JARR"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

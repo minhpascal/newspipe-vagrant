@@ -19,16 +19,16 @@ Installation of VirtualBox and Vagrant
 .. code-block:: bash
 
     $ sudo apt-get install virtualbox
-    $ wget https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1_x86_64.deb
-    $ sudo dpkg -i vagrant_1.8.1_x86_64.deb
+    $ wget https://releases.hashicorp.com/vagrant/1.8.5/vagrant_1.8.5_x86_64.deb
+    $ sudo dpkg -i vagrant_1.8.5_x86_64.deb
 
 Deployment of JARR
 ------------------
 
 .. code-block:: bash
 
-    $ git clone https://github.com/JARR-aggregator/jarr-vagrant.git
-    $ cd jarr-vagrant/
+    $ git clone https://github.com/JARR/JARR-vagrant.git
+    $ cd JARR-vagrant/
     $ vagrant up
 
 Once the VM will be configured by Vagrant,
@@ -45,4 +45,4 @@ License
 Contact
 =======
 
-`My home page <https://www.cedricbonhomme.org>`_.
+`Cédric Bonhomme <https://www.cedricbonhomme.org>`_
